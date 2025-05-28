@@ -1,0 +1,379 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #343a40;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #495057;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-end;
+    }
+}
+
+/* Base color: Lunar Blue */
+.bg-lunar-blue {
+  background-color: #1A3C6D !important;
+}
+
+.text-lunar-blue {
+  color: #1A3C6D !important;
+}
+
+/* Footer Links */
+.footer-link {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #fff;
+}
+
+/* Login Button */
+#login-button {
+  border-radius: 30px;
+  transition: background 0.3s, color 0.3s;
+}
+
+#login-button:hover {
+  background-color: #fff;
+  color: #1A3C6D;
+}
+
+/* Hero Section */
+#hero-section {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Magnificent Design Touches */
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+footer h5 {
+  margin-bottom: 1rem;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+.footer-email {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+
+.social-icons a {
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #0d6efd;
+  transform: scale(1.1);
+}
+
+/* Base color */
+:root {
+  --lunar-blue: #1A3C6D;
+}
+
+/* Main container */
+.form-login-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels */
+.form-login-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: var(--lunar-blue);
+  font-weight: 600;
+}
+
+/* Inputs */
+.form-login-input {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.form-login-input:focus {
+  border-color: var(--lunar-blue);
+  outline: none;
+}
+
+/* Button and link container */
+.form-login-button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Login Button */
+.form-login-button {
+  background-color: var(--lunar-blue);
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form-login-button:hover {
+  background-color: #143053;
+}
+
+/* Registration Link */
+.form-login-link {
+  color: var(--lunar-blue);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.form-login-link:hover {
+  color: #0e2545;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .form-login-container {
+    padding: 1.5rem;
+    margin: 2rem 1rem;
+  }
+
+  .form-login-button-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-login-button,
+  .form-login-link {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Hero Section Styles */
+.hero-area {
+    background: linear-gradient(rgba(26, 60, 109, 0.8), rgba(26, 60, 109, 0.9)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+/* Car Card Styles */
+.car-card {
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 15px rgba(26, 60, 109, 0.1);
+}
+
+.car-card:hover {
+    transform: translateY(-5px);
+}
+
+.car-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.car-features .badge {
+    padding: 8px 12px;
+}
+
+.price-tag {
+    color: var(--lunar-blue);
+    font-size: 1.25rem;
+}
+
+/* Feature Box Styles */
+.feature-box {
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(26, 60, 109, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box i {
+    color: var(--lunar-blue);
+}
+
+/* Review Card Styles */
+.review-card {
+    border: none;
+    box-shadow: 0 2px 15px rgba(26, 60, 109, 0.1);
+}
+
+.stars .fas {
+    font-size: 1.1rem;
+    color: var(--lunar-blue);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-content {
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    .feature-box {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Section Title Styles */
+.section-title {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--lunar-blue);
+    margin: 1rem auto 0;
+}
+
+/* Call to Action Styles */
+#cta {
+    background: linear-gradient(45deg, var(--lunar-blue), #143053);
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: var(--lunar-blue);
+    border-color: var(--lunar-blue);
+}
+
+.btn-primary:hover {
+    background-color: #143053;
+    border-color: #143053;
+}
+
+.btn-light:hover {
+    color: var(--lunar-blue);
+}
+
+/* Navbar Styles */
+#main-navbar {
+    transition: all 0.3s ease;
+}
+
+#main-navbar .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+#main-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+#main-navbar .nav-link:hover {
+    color: white;
+}
+
+#main-navbar .nav-link.active {
+    color: white;
+}
+
+#main-navbar .btn-outline-light {
+    border-width: 2px;
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+/* Responsive Navbar Styles */
+@media (max-width: 991.98px) {
+    #main-navbar .navbar-collapse {
+        background: var(--lunar-blue);
+        padding: 1rem;
+        border-radius: 8px;
+        margin-top: 0.5rem;
+    }
+
+    #main-navbar .navbar-nav {
+        margin-bottom: 1rem !important;
+    }
+
+    #main-navbar .nav-link {
+        padding: 0.75rem 1rem;
+    }
+
+    #main-navbar .d-flex {
+        justify-content: center;
+    }
+
+    #main-navbar .btn-outline-light {
+        width: 100%;
+        text-align: center;
+    }
+}
