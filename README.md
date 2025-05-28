@@ -193,12 +193,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📧 Contact
-
-For any queries or support, please contact:
-- Email: support@lunardrive.com
-- Website: www.lunardrive.com
 
 ---
-
-Made with ❤️ by [Your Name] 
