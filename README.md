@@ -130,38 +130,32 @@ Garage/
 ## 📸 Screenshots
 
 ### User Interface
-![Homepage](images/screenshots/uv%201.png)
+![Homepage](images/screenshots/Homepage.png)
 *Homepage - Welcome to Lunar Drive Elite*
 
-![Car Listings](images/screenshots/uv%202.png)
+![Car Listing](images/screenshots/car%20listing.png)
 *Browse Our Premium Fleet*
 
-![Car Details](images/screenshots/uv%203.png)
+![Car Details](images/screenshots/car%20details.png)
 *Detailed Car Information*
 
-![Booking Interface](images/screenshots/uv%204.png)
+![Booking Interface](images/screenshots/booking%20interface.png)
 *Seamless Booking Experience*
 
-![User Dashboard](images/screenshots/uv%205.png)
+![User Dashboard](images/screenshots/user%20dashboard.png)
 *User Dashboard Overview*
 
 ### Admin Interface
-![Admin Dashboard](images/screenshots/av%201.png)
-*Admin Control Panel*
+![Admin Dashboard](images/screenshots/admin%20dashboard.png)
+*Administrative Control Panel*
 
 ### Profile Management
-![Profile View](images/screenshots/pv%202.png)
+![Profile Management](images/screenshots/profile%20managment.png)
 *User Profile Management*
 
-![Profile Settings](images/screenshots/pv%203.png)
-*Profile Settings and Preferences*
-
-### Mobile Responsive Views
-![Mobile View 1](images/screenshots/uv%2010.png)
-*Mobile-Optimized Homepage*
-
-![Mobile View 2](images/screenshots/uv%2011.png)
-*Responsive Car Listings*
+### Featured Section
+![Featured Cars](images/screenshots/featured.png)
+*Featured Vehicles Showcase*
 
 ## 🔜 Future Improvements
 
